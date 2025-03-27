@@ -3,67 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио Трухиной Анастасии</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Портфолио - Трухина Анастасия Александровна</title>
+    <!-- Подключение Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Главная область -->
-    <div class="container">
-        <section id="home">
-            <h1>Анастасия Трухина</h1>
-            <p>Программист-разработчик</p>
-            <p>Студент 1 курса МУТСИ, специализируюсь на разработке и сопровождении ПО.</p>
-            <a href="#contacts" class="btn">Связаться со мной</a>
-        </section>
+    <!-- Header -->
+    <header class="header">
+        <h1>Трухина Анастасия Александровна</h1>
+    </header>
 
-        <section id="about">
+    <!-- Main -->
+    <main class="main">
+        <!-- Раздел "О себе" -->
+        <section id="about" class="section">
             <h2>О себе</h2>
-            <p><strong>Образование:</strong> МУТСИ, программная инженерия (1 курс)</p>
-            <p><strong>Цель:</strong> Стать профессиональным разработчиком ПО.</p>
-            <p><strong>Навыки:</strong></p>
+            <p>Студентка 1 курса МУТСИ по направлению программная инженерия. Увлекаюсь разработкой ПО и веб-технологиями.</p>
+        </section>
+
+        <!-- Раздел "Проекты" -->
+        <section id="projects" class="section">
+            <h2>Проекты</h2>
             <ul>
-                <li>Flask, REST API, CRUD</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python, Java</li>
-                <li>OOP в Python и Java</li>
-                <li>Oracle SQL, PostgreSQL, SQLite</li>
-                <li>Java Swing GUI</li>
+                <li>Создание веб-приложения на Flask с использованием RestAPI.</li>
+                <li>HTTPs и CRUD.</li>
+                <li>GUI-приложение на Java Swing.</li>
             </ul>
-            <p><strong>Лет опыта:</strong> 1+</p>
-            <p><strong>Проектов выполнено:</strong> 5+</p>
-            <p><strong>Сообщества:</strong> GitHub, LinkedIn</p>
         </section>
 
-        <section id="projects">
-            <h2>Мои проекты</h2>
-            <div class="project-item">
-                <p><strong>Проект 1:</strong> Веб-приложение на Flask</p>
-                <p>Описание проекта. Используемые технологии: Flask, PostgreSQL, HTML/CSS.</p>
-                <a href="https://github.com/your-repo-link" target="_blank">Смотреть на GitHub</a>
-            </div>
-            <div class="project-item">
-                <p><strong>Проект 2:</strong> GUI приложение на Java Swing</p>
-                <p>Описание проекта. Используемые технологии: Java, OOP.</p>
-                <a href="https://github.com/your-repo-link" target="_blank">Смотреть на GitHub</a>
-            </div>
+        <!-- Раздел "Навыки" -->
+        <section id="skills" class="section">
+            <h2>Навыки</h2>
+            <ul>
+                <li><strong>Языки программирования:</strong> Python, Java, JavaScript.</li>
+                <li><strong>Фреймворки и технологии:</strong> Flask, HTML, CSS, JS, OracleSQL, PostgreSQL, SQLite.</li>
+                <li><strong>Soft skills:</strong> Работа в команде, креативность, обучаемость.</li>
+            </ul>
         </section>
+    </main>
 
-        <section id="contacts">
-            <h2>Контакты</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Ваше имя" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Сообщение" required></textarea>
-                <button type="submit">Отправить</button>
-            </form>
-            <div class="social-links">
-                <a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:your-email@example.com" target="_blank"><i class="fas fa-envelope"></i></a>
-            </div>
-        </section>
-    </div>
-
-    <script src="script.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Контакты:</p>
+        <ul>
+            <li>Email: trukhina12345@mail.ru</li>
+            <li>GitHub: <a href="https://github.com/NT-005-TN">github.com/NT-005-TN</a></li>
+            <li>Telegram: @NTr_005</li>
+        </ul>
+    </footer>
 </body>
 </html>
