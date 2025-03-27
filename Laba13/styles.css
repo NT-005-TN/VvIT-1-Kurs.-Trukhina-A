@@ -1,50 +1,19 @@
-/* Общие стили */
-* {
+/* Глобальные стили */
+body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #fff;
-  background-color: #121212;
-  overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding-top: 20px; /* Отступ сверху */
-  padding-bottom: 20px; /* Отступ снизу */
+  color: #333;
+  background-color: #f9f9f9;
 }
 
-.container {
-  max-width: 600px;
-  width: 100%;
-  text-align: left;
-  padding: 40px 20px; /* Внутренние отступы контейнера */
-  background: #1e1e1e; /* Фоновый цвет контейнера */
-  border-radius: 10px; /* Скругление углов */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень для объема */
+h1, h2 {
+  color: #333;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
-}
-
-/* Разделы */
-section {
-  margin-bottom: 40px;
-}
-
-h1, h2 {
-  margin-bottom: 10px;
-}
-
-p {
-  margin-bottom: 5px;
 }
 
 ul {
@@ -52,73 +21,34 @@ ul {
   padding: 0;
 }
 
-ul li {
-  margin-bottom: 5px;
+/* Header */
+.header {
+  background-color: #f1f3e7;
+  text-align: center;
+  padding: 1rem 0;
 }
 
-.btn {
-  background: #ff6f61;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-  display: inline-block;
-  margin-top: 10px;
+/* Main */
+.main {
+  padding: 2rem;
 }
 
-.btn:hover {
-  background: #e74c3c;
+.section {
+  margin-bottom: 2rem;
 }
 
-.project-item {
-  margin-bottom: 20px;
+.section h2 {
+  margin-bottom: 1rem;
 }
 
-.project-item a {
-  color: #ff6f61;
-  transition: color 0.3s ease;
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
 }
 
-.project-item a:hover {
-  color: #e74c3c;
-}
-
-#contact-form input, #contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  background: transparent;
-  color: #fff;
-}
-
-#contact-form button {
-  background: #ff6f61;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-#contact-form button:hover {
-  background: #e74c3c;
-}
-
-.social-links {
-  margin-top: 20px;
-}
-
-.social-links a {
-  margin: 0 10px;
-  font-size: 2rem;
-  color: #fff;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: #ff6f61;
+.footer a:hover {
+  text-decoration: underline;
 }
