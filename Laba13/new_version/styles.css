@@ -1,0 +1,122 @@
+/* Глобальные стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  margin-top: 20px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav-link:hover {
+  background-color: #ff6f61;
+  transform: scale(1.1);
+}
+.nav-link:active {
+  background-color: #c62828;
+}
+
+/* Main */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+main section {
+  margin-bottom: 30px;
+}
+main h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #0d47a1;
+}
+main ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Skills */
+.skills-list .skill-level {
+  font-family: monospace;
+}
+.skills-list .beginner {
+  color: #F0FAAA;
+}
+.skills-list .basic {
+  color: #C8E6C9;
+}
+.skills-list .advanced {
+  color: #81C784;
+}
+
+/* Footer */
+footer {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Плавная прокрутка */
+html {
+  scroll-behavior: smooth;
+}
